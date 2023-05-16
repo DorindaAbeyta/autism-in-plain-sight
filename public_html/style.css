@@ -21,13 +21,13 @@
 }
 .content h1{
     font-size: 16vw;
-    color: black;
+    color: white;
     font-weight: 600;
     transition: 0.5s;
 }
 
 .content h1:hover{
-    -webkit-text-stroke: 4px white;
+    -webkit-text-stroke: 6px #03cea4;
     color: transparent;
 
 }
@@ -37,6 +37,28 @@
     inset: 0;
     width: 100%;
     z-index: -1;
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #03cea4;
+    border-color: none;
+    opacity: 50%;
+}
+
+.dropdown-menu{
+    background-color: #ffd166;
+}
+
+.offcanvas-header{
+    background-color: #03cea4;
+}
+
+.container-lg{
+    background-color: #ffd166;
+    border-style: wave;
+    margin-top: 5em;
 }
 
 /*@media (min-aspect-ratio: 16/9){*/
