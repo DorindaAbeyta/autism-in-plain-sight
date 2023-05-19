@@ -151,7 +151,8 @@
 }
 
 .img-hands{
-padding-bottom: 2em;
+    padding-bottom: 2em;
+    max-width: 100%;
 }
 
 #visibility-header{
@@ -183,6 +184,7 @@ padding-bottom: 2em;
 
 .img-flag{
     text-align: center;
+    max-width: 100%;
 }
 
 #link-header{
