@@ -54,7 +54,7 @@
     background-color: #03cea4;
 }
 
-.container-lg{
+.about{
     background-color: #fda79f;
     margin-top: 3em;
     margin-bottom: 3em;
@@ -122,9 +122,117 @@
     font-weight: bolder;
 }
 
+.myth{
+    color: #345995;
+}
+
+#myth-header{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.accordion-button{
+    background-color: #f280a6;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.collapsed{
+    background-color: #345995;
+    color: white;
+}
 
 .visibility{
+    background-color: #fda79f;
+    font-family: "Poppins", sans-serif;
     text-align: center;
+}
+
+.img-hands{
+padding-bottom: 2em;
+}
+
+#visibility-header{
+    color: #FB4D3D;
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 29pt;
+}
+
+.visibility-body{
+    font-size: 14pt;
+    text-align: justify;
+}
+
+#pride-header{
+    font-family: "Poppins", sans-serif;
+    font-size: 29pt;
+    font-weight: bolder;
+    text-align: center;
+    color: #03cea4;
+}
+
+.pride-body{
+    font-size: 14pt;
+    font-family: "Poppins", sans-serif;
+    color: #01876c;
+    text-align: justify;
+}
+
+.img-flag{
+    text-align: center;
+}
+
+#link-header{
+    font-weight: bolder;
+    font-size: 29pt;
+}
+
+.links{
+    background-color: #ffe9b4;
+    color: darkorange;
+    font-family: "Poppins", sans-serif;
+}
+
+a:link {
+    color: #345995;
+}
+
+a:visited {
+    color: #FB4D3D;
+}
+
+a:focus {
+    text-decoration: none;
+    background: #03cea4;
+}
+
+a:hover {
+    text-decoration: none;
+    background: #03cea4;
+}
+
+a:active {
+    background: #345995;
+    color: #03cea4;
+}
+
+.footer{
+    background-color: black;
+}
+
+#footer-text{
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#footer-text:hover{
+    -webkit-text-stroke: 1px #03cea4;
+    color: transparent;
 }
 /*@media (min-aspect-ratio: 16/9){*/
 /* .back-video{*/
